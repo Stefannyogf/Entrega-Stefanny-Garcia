@@ -19,6 +19,8 @@
 
 
     <header>
+
+        <!-- Barra de navegacion menu hamb -->
         <Nav>
             <div class="container menu">
 
@@ -103,69 +105,45 @@
 
 
             <div class="container">
-
+ <!-- Formulario sacado de boostrap y personalizado con lo que vimos en clase -->
                 <form>
 
                     <section class=" row">
-                        <div class="col-lg-7 col-md-7">
-                            <div>
-                                <p>Nombre</p>
-                                <input type="text" placeholder="Nombre Completo">
+                        <form>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con
+                                    nadie más ;).</div>
                             </div>
 
-                            <div>
-                                <p>Email</p>
-                                <input type="email" placeholder="Email">
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
                             </div>
 
-                            <div>
-                                <p>Contraseña</p>
-                                <input type="password">
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Quiero recibir las novedades en mi
+                                    email.</label>
                             </div>
 
-                            <div>
-                                <p>Mensaje</p>
-                                <textarea placeholder="Que te parecio la pagina?"></textarea>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Comentanos algo
+                                    mas...</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
 
-                            <div>
-                                <input type="checkbox" id="Genero1" name="genero1" value="Masculino">Masculino <br>
-    
-                                <input type="checkbox" id="Genero2" name="genero2" value="Femenino"> Femenino <br>
-    
-                                <input type="checkbox" id="Genero3" name="genero3" value="Prefiero no decirlo">
-                                Prefiero no decirlo
-                            </div>
-    
-                            <div>
-                                <p>Que necesitas?:</p>
-    
-                                <select name="necesita" id="necesita">
-                                    <option value="">Seleccione</option>
-                                    <option value="Recibir mails">Recibir mails</option>
-                                    <option value="Quiero que se conmuniquen conmigo">Quiero que se conmuniquen conmigo
-                                    </option>
-                                </select>
-    
-                            </div>
-    
                             <div class="espacio-entreparrafos">
                                 <input type="submit">
                                 <input type="reset">
                             </div>
 
-                        </div> 
+                        </form>
 
 
-
-
-                        <div class=" cada_imagen3 col-lg-5 col-md-5">
-<!--  -->
-                            <div>
-                                <a href="#"><img src="../img/viajerooo.jpg" alt="viajero"></a>
-                            </div>
-
-                        </div>
                     </section>
 
                 </form>
@@ -176,10 +154,7 @@
 
     </main>
 
-
-
-
-
+<!-- Pie de PAGINAS--------- -->
     <footer class="container-fluid">
 
 
