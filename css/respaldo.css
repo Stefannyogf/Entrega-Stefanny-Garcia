@@ -1,21 +1,21 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     list-style: none;
 
 }
 
+ */
 
-
-a {
+/* a {
     text-decoration: none;
 }
 
 a {
     color: black; 
-}
+} */
 
-header{
+/* header{
     background-color: #f08080;
     width: 100%;
 }
@@ -25,12 +25,12 @@ main {
     margin-right: 3%;
     background-color: #f8f9fa;
 
-}
+} */
 
 
 /* --------------------encabezado------------- */
 
-.barra{
+/* .barra{
     width: 100%;
 }
 
@@ -55,10 +55,10 @@ h1 {
     align-items: center;
     position: relative;
     text-shadow: .1rem .1rem .5rem #515a63;
-}
+} */
 
 /*----------------------- contenido---------------- */
-
+/* 
 .titulo_importante {
     padding: 20px;
     text-align: center;
@@ -72,60 +72,52 @@ h1 {
     margin: auto;
 
 }
+ */
 
-
-.espacio-entreparrafos{
+/* .espacio-entreparrafos{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .espacio_der{
     padding-right: 1rem;
-}
-.cada_imagen img {
+} */
+/* .cada_imagen img {
     width: 100%;
     height: 17rem;
     padding-bottom: 1%;
     border-radius: .5rem;
-}
+} */
 
-.cada_imagen2 img {
+/* .cada_imagen2 img {
     width: 100%;
     height: 17rem;
     border-radius: 1rem;
+} */
 
 
-}
 
-.cada_imagen3 img {
-    width: 100%;
-    height: 17rem;
-    border-radius: 1rem;
-
-
-}
-
-.imagenes-abajo-index{
+/* .imagenes-abajo-index{
     text-align: center;
     font-weight: bold;
 
-}
+} */
 
 
 
-form{
+/* form{
     width: 90%;
     margin-bottom: 2rem;
-}
+} */
 
 
-footer{
+/* footer{
     background-color: #ddbea9;
     width: 100%;
-}
+} */
 
 /* ----------------transformacion y transicion */
-
+/* 
 .zoom:hover{
     transform: scale(0.9);
     transition: all 1s;
@@ -135,11 +127,11 @@ footer{
     transform: scale(1.1);
     transition: all 1s;
 }
-
+ */
 
 
 /* ----------------responsive  */
-
+/* 
 @media (min-width: 310px) and (max-width: 575px) {
    
     header {
@@ -181,4 +173,4 @@ footer{
     footer{
         display: none;
     }
-}
+} */

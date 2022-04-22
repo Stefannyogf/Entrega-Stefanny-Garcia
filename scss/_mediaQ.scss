@@ -1,0 +1,38 @@
+@media (min-width: 310px) and (max-width: 575px) {
+   
+    header {
+        padding: 1rem;
+        h1 {
+            font-size: 7vw;
+        }
+    }
+    h3.titulo_importante{
+        font-size: 5vw;
+    }
+
+    .letra{
+        font-size: 5vw;
+    }
+
+    .menu_contacto{
+        width: 8vw;
+    }
+
+    .c_contenidop {
+
+        text-align: justify;
+    
+    }
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    footer{
+        display: none;
+    }
+}

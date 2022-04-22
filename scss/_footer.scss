@@ -1,0 +1,10 @@
+@import "variables";
+
+footer{
+    background-color: $color_secundario;
+    width: 100%; 
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

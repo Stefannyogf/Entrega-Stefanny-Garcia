@@ -1,0 +1,40 @@
+@import "variables";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+header{
+    background-color: $color_principal;
+    width: 100%;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .barra{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu {
+
+        font-size: 1.5rem;
+        font-weight: bold;
+    
+    }
+    .Titulo_pagina {
+        text-align: center;
+        align-items: center;
+        position: relative;
+        text-shadow: .1rem .1rem .5rem #515a63;
+    }
+    
+}
+

@@ -1,5 +1,102 @@
-body {
-  background-color: black;
-}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
 
-/*# sourceMappingURL=estiloss.css.map */
+header {
+  background-color: #f08080;
+  width: 100%; }
+  header a {
+    text-decoration: none;
+    color: black; }
+  header .barra {
+    width: 100%; }
+  header h1 {
+    font-size: 2.5rem; }
+  header .menu {
+    font-size: 1.5rem;
+    font-weight: bold; }
+  header .Titulo_pagina {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    text-shadow: .1rem .1rem .5rem #515a63; }
+
+main {
+  margin-left: 2%;
+  margin-right: 3%;
+  background-color: #f8f9fa; }
+  main a {
+    text-decoration: none;
+    color: black; }
+  main .titulo_importante {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px; }
+  main .c_contenidop {
+    padding: 1rem;
+    text-align: justify;
+    display: flex;
+    margin: auto; }
+  main .espacio-entreparrafos {
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  main .espacio_der {
+    padding-right: 1rem; }
+  main form {
+    width: 90%;
+    margin-bottom: 2rem; }
+
+div .cada_imagen img {
+  width: 100%;
+  height: 17rem;
+  padding-bottom: 1%;
+  border-radius: .5rem; }
+
+div .cada_imagen2 a img {
+  width: 100%;
+  height: 17rem;
+  border-radius: 1rem; }
+
+div .cada_imagen2 p {
+  text-align: center; }
+  div .cada_imagen2 p a {
+    font-weight: bold; }
+
+div .cada_imagen2 img {
+  width: 100%;
+  height: 17rem;
+  border-radius: 1rem; }
+
+header .zoom-insta:hover, footer .zoom-insta:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+main .zoom:hover {
+  transform: scale(0.9);
+  transition: all 1s; }
+
+footer {
+  background-color: #ddbea9;
+  width: 100%; }
+  footer a {
+    text-decoration: none;
+    color: black; }
+
+@media (min-width: 310px) and (max-width: 575px) {
+  header {
+    padding: 1rem; }
+    header h1 {
+      font-size: 7vw; }
+  h3.titulo_importante {
+    font-size: 5vw; }
+  .letra {
+    font-size: 5vw; }
+  .menu_contacto {
+    width: 8vw; }
+  .c_contenidop {
+    text-align: justify; } }
+
+@media (max-width: 768px) {
+  footer {
+    display: none; } }

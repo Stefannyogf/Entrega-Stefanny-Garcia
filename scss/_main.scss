@@ -1,0 +1,39 @@
+@import "variables";
+
+
+main{
+    margin-left: 2%;
+    margin-right: 3%;
+    background-color: $Fondo;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .titulo_importante {
+        padding: 20px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .c_contenidop {
+        padding: 1rem;
+        text-align: justify;
+        display: flex;
+        margin: auto;
+    
+    }
+
+    .espacio-entreparrafos{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .espacio_der{
+        padding-right: 1rem;
+    }
+    
+    form{
+    width: 90%;
+    margin-bottom: 2rem;
+    }
+}
