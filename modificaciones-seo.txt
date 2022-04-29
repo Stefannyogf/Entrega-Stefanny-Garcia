@@ -7,3 +7,8 @@ Modificaciones SEO.
 - breve descripcion en todas las paginas.
 
 -Se cambio el contenido de las imagines "alt".
+
+
+Modificaciones Sass.
+
+hice un Mixin, me parecio bastante util, en la carpeta de sass esta un import que dice "mixin" y lo utilice en header, main footer y en las imagenes.
