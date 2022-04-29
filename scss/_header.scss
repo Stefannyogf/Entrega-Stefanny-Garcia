@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixin";
 
 
 * {
@@ -12,8 +13,7 @@ header{
     background-color: $color_principal;
     width: 100%;
     a{
-        text-decoration: none;
-        color: black;
+        @include text-d-none (none, black)
     }
     .barra{
         width: 100%;

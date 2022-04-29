@@ -1,0 +1,13 @@
+// en la pagina img
+@mixin  tamano-img ($width, $heigth, $border-r) {
+    width: $width;
+    height: $heigth;
+    border-radius: $border-r;
+}
+
+
+// en las pag header, footer y main
+@mixin text-d-none ($tex-decorarion, $color ) {
+    text-decoration: $tex-decorarion;
+    color: $color;
+}

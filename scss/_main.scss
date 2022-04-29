@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixin";
 
 
 main{
@@ -6,8 +7,7 @@ main{
     margin-right: 3%;
     background-color: $Fondo;
     a{
-        text-decoration: none;
-        color: black;
+        @include text-d-none (none, black)
     }
     .titulo_importante {
         padding: 20px;

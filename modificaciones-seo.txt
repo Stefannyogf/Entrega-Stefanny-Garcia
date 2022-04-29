@@ -1,0 +1,9 @@
+Modificaciones SEO.
+
+- Se cambiaron los titulos de todas las paginas.
+
+- Se agregaron en todas las paginas las etiquetas meta descripcion y meta keywords, con las palabras que me parecieron importantes como "Emigrar, Viajar, residencias, país, migración, migrante, viajes, protocolos, proceso migratorio, pasaporte, documento de identidad, documentación, antes de viajar, testimoniales, experiencia"
+
+- breve descripcion en todas las paginas.
+
+-Se cambio el contenido de las imagines "alt".
