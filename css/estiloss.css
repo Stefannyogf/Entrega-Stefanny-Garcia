@@ -4,7 +4,7 @@
   list-style: none; }
 
 header {
-  background-color: #f08080;
+  background-color: #90dbf4;
   width: 100%; }
   header a {
     text-decoration: none;
@@ -38,6 +38,8 @@ main {
     text-align: justify;
     display: flex;
     margin: auto; }
+  main .negrita {
+    font-weight: 500; }
   main .espacio-entreparrafos {
     margin-top: 1rem;
     margin-bottom: 1rem; }
@@ -77,11 +79,15 @@ main .zoom:hover {
   transition: all 1s; }
 
 footer {
-  background-color: #ddbea9;
+  background-color: #d8e2dc;
   width: 100%; }
   footer a {
     text-decoration: none;
     color: black; }
+
+@media (min-width: 768px) {
+  main .orden-parrafo {
+    width: 50%; } }
 
 @media (min-width: 310px) and (max-width: 575px) {
   header {
